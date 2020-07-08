@@ -2,7 +2,8 @@
 Supplemental resources to accompany our implementation paper for new features in REBOUNDx versions 3.0.5 and 3.1.0. Includes `mesa2txt` tutorial, with scripts to import, isolate, and export data from [MESA](http://mesa.sourceforge.net/) (Modules for Experiments in Stellar Astrophysics), for use with ["Parameter Interpolation"](https://reboundx.readthedocs.io/en/latest/effects.html#parameter-interpolation) in REBOUNDx.
 
 ## Prerequisites
-- [NumPy](https://docs.scipy.org/doc/numpy/user/install.html)
+- [NumPy](https://numpy.org/)
+- [Matplotlib](https://matplotlib.org/)
 - [REBOUND](https://rebound.readthedocs.io/)
 - [REBOUNDx](https://reboundx.readthedocs.io/)
 - [py_mesa_reader](https://github.com/wmwolf/py_mesa_reader) (for `mesa2txt.ipynb`)
