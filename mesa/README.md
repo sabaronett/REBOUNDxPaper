@@ -8,5 +8,3 @@ The subdirectory includes
 - custom `rn`
 - produced models (`.mod`) from our run
 - produced `history.data` from our run
-
-We note that the contents of `/LOGS` in this repository's top-level directory was copied from `1M_pre_ms_to_wd/LOGS_to_end_agb`.
