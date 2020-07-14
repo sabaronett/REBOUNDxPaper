@@ -10,7 +10,7 @@ Supplemental resources to accompany our implementation paper for new features in
 
 ## Usage
 
-### Figures from Baronett, et al. (2020)
+### Figures from _Baronett, et al. (2020)_
 This repository contains Jupyter Notebooks (e.g., [`fig1.ipynb`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/fig1.ipynb)) with code to generate the figures seen in our implementation paper, [Baronett et al. (2020)](https://arxiv.org).
 
 ### MESA-REBOUNDx Parameter Interpolation
