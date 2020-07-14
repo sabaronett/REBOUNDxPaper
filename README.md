@@ -9,9 +9,15 @@ Supplemental resources to accompany our implementation paper for new features in
 - [py_mesa_reader](https://github.com/wmwolf/py_mesa_reader) (for `mesa2txt.ipynb`)
 
 ## Usage
-This repository contains Jupyter Notebooks with code to generate the figures seen in our implementation paper, [Baronett et al. (2020)](https://arxiv.org).
 
-For those interested in incorporating stellar evolution data from MESA into REBOUND simulations, we recommend following the methodology laid out in [`mesa2txt.ipynb`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/mesa2txt.ipynb) to easily extract desired stellar properties from MESA output logs for use with REBOUNDx's ["Paramter Interpolation"](https://reboundx.readthedocs.io/en/latest/effects.html#parameter-interpolation).
+### Figures from Baronett, et al. (2020)
+This repository contains Jupyter Notebooks (e.g., [`fig1.ipynb`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/fig1.ipynb)) with code to generate the figures seen in our implementation paper, [Baronett et al. (2020)](https://arxiv.org).
+
+### MESA-REBOUNDx Parameter Interpolation
+For those interested in incorporating stellar evolution data from MESA into REBOUND simulations, we recommend following the methodology laid out in [`mesa2txt.ipynb`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/mesa2txt.ipynb), to easily extract desired stellar properties from MESA output logs, for use with REBOUNDx's ["Paramter Interpolation"](https://reboundx.readthedocs.io/en/latest/effects.html#parameter-interpolation).
+
+### MESA Project Files
+We've made available our MESA project files, including custom inlists, etc., under the `mesa` subfolder. See the subfolder's [README](https://github.com/sabaronett/REBOUNDxPaper/tree/master/mesa) for more details.
 
 ## Acknowledgement
 If you find any code here useful in your research, in particular the [`mesa2txt`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/mesa2txt.ipynb) methodology, we would greatly appreciate a citation of our immplementation paper, [Baronett et al. (2020)](https://arxiv.org), in your work.
