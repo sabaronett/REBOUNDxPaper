@@ -11,7 +11,7 @@ Supplemental resources to accompany our implementation paper for new features in
 ## Usage
 
 ### Figures from _Baronett, et al. (2020)_
-This repository contains Jupyter Notebooks (e.g., [`fig1.ipynb`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/fig1.ipynb)) with code to generate the figures seen in our implementation paper, [Baronett et al. (2020)](https://arxiv.org).
+This repository contains Jupyter Notebooks (e.g., [`fig1.ipynb`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/fig1.ipynb)) demonstrating new REBOUNDx features and code to generate some of the figures seen in our implementation paper, [Baronett et al. (2020)](https://arxiv.org).  We also include in subdirectories (e.g., [`/fig4/`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/fig4)) sample REBOUNDx Python scripts used to generate the data for their respective figures.
 
 ### MESA-REBOUNDx Parameter Interpolation
 For those interested in incorporating stellar evolution data from MESA into REBOUND simulations, we recommend following the methodology laid out in [`mesa2txt.ipynb`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/mesa2txt.ipynb), to easily extract desired stellar properties from MESA output logs, for use with REBOUNDx's ["Paramter Interpolation"](https://reboundx.readthedocs.io/en/latest/effects.html#parameter-interpolation).
