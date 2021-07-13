@@ -7,7 +7,9 @@
 - [psutil](https://pypi.org/project/psutil/) (for tracking active memory usage)
 
 ## Sample Scripts
-Contained here are two main subdirectories that correspond to the top ([`/engulfment/`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/fig4/engulfment)) and bottom ([`/expansion/`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/fig4/expansion)) subplots in Fig. 4 of [Baronett et al. (2020)](https://arxiv.org).  Each one contains a sample run, e.g., [`/1e3/`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/fig4/engulfment/1e3), corresponding to the respective "parameter update interval" (in years) measured in that simulation (see Fig. 4 and §4.1 of our paper for more information).  Also included are required stellar evolution data from `MESA` needed to run the scripts as well as sample output results from runs on a compute cluster.
+Contained here are two main subdirectories that correspond to the top ([`/engulfment/`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/fig4/engulfment)) and bottom ([`/expansion/`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/fig4/expansion)) subplots in Fig. 4 of [Baronett et al. (2020)](https://arxiv.org).
+Each one contains all the plotted runs, e.g., [`/1e3/`](https://github.com/sabaronett/REBOUNDxPaper/blob/master/fig4/engulfment/1e3), corresponding to the respective "parameter update interval" (in years) measured in that simulation (see Fig. 4 and §4.1 of our paper for more information).
+Also included are required stellar evolution data from `MESA` needed to run the scripts as well as sample output results from runs on a compute cluster.
 
 ## Acknowledgement
 If you find any code here useful in your research, we would greatly appreciate a citation of our immplementation paper, [Baronett et al. (2021)](https://arxiv.org), in your work.
