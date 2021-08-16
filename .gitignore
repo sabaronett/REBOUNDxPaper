@@ -1,3 +1,7 @@
 .ipynb_checkpoints
 .vscode/settings.json
 rebxpaper.code-workspace
+test/
+tests/
+old/
+__pycache__/
