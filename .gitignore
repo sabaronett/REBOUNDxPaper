@@ -4,7 +4,8 @@ rebxpaper.code-workspace
 *.out.*
 *.temp.*
 *.tmp.*
-test/
-tests/
 old/
 __pycache__/
+test/
+tests/
+unused/
