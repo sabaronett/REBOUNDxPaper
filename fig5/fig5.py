@@ -27,18 +27,16 @@ for i,init_a in enumerate(init_as):
     data = np.loadtxt(fname)
     a1[:, i] = data[:, 1]
 
-f = mticker.ScalarFormatter(useOffset=False, useMathText=True)
-g = lambda x,pos : "${}$".format(f._formatSciNotation('%1.10e' % x))
 props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
 fig, ax1 = plt.subplots(figsize=(13, 8), dpi=300)
 cmap = plt.get_cmap("tab10")
 
 ax1.set_xlabel('Time / Myr', fontsize='large')
-ax1.set_ylabel('Distance / AU', fontsize='large')
+ax1.set_ylabel('Distance / au', fontsize='large')
 ax1.ticklabel_format(axis='x', style='sci', scilimits=(0,0))
 ax1.xaxis.set_minor_locator(mticker.AutoMinorLocator())
 ax1.yaxis.set_minor_locator(mticker.AutoMinorLocator())
-ax1.plot(ts,radius, color='black', lw=4, label='$R_\odot(t)$',)
+ax1.plot(ts,radius, color='black', lw=4, label='$R_{Sun}(t)$',)
 # Single points for grayscale legend
 ax1.plot(ts[0],a1[0, 0], '--', color='tab:gray', lw=1, label='Tides OFF')
 ax1.plot(ts[0],aT1[0, 0], color='tab:gray', lw=1,
@@ -56,8 +54,5 @@ for i,init_a in enumerate(init_as):
 ax1.legend(fontsize='x-large', loc='best', labelspacing=0.1, framealpha=1.0)
 ax1.grid()
 
-plt.gca().xaxis.set_major_formatter(mticker.FuncFormatter(g))
 plt.savefig('../img/fig5.eps', bbox_inches='tight', pad_inches=0.01)
 plt.savefig('../img/fig5.pdf', bbox_inches='tight', pad_inches=0.01)
-# plt.savefig('../img/fig5.png', bbox_inches='tight', dpi=300)
-# plt.show()
